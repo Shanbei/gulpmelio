@@ -1,0 +1,65 @@
+<!doctype html>
+	<html>
+		<head><meta charset="UTF-8">
+			<meta name=renderer content=webkit>
+			<meta name=msapplication-tap-highlight content=no>
+			<meta name=format-detection content="telephone=no">
+			<meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no">
+			<meta content=yes name=apple-mobile-web-app-capable>
+			<meta content=yes name=apple-touch-fullscreen>
+			<meta content="telephone=no" name=format-detection>
+			<meta content="email=no" name=format-detection>
+			<meta content=black name=apple-mobile-web-app-status-bar-style>
+			<meta name=x5-fullscreen content=true>
+			<meta name=x5-page-mode content=app>
+			<meta name=HandheldFriendly content=true>
+			<meta name=screen-orientation content=portrait>
+			<meta name=x5-orientation content=portrait>
+			<meta http-equiv=Expires content=-1>
+			<meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate">
+			<meta http-equiv=Pragma content=no-cache>
+			<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+			<title>PICC专题页</title>
+			<meta name="keywords" content="PICC专题页" />
+			<meta name="description" content="PICC专题页" />
+			<link rel="stylesheet" href="./css/style.css">
+			<link rel="stylesheet" href="./css/base.css"></head>
+		<body>
+			  <!--#include virtual="/piccsite/hdheader/index.html" -->
+			  <div class="content">
+				<div>
+					<h1></h1>
+				</div>
+			  </div>
+			  <div class="foot">
+				<div class="w">
+				  <span><img src="https://group.picccdn.cn/images/ipv6.png"></span>
+				  <p>中国人保 版权所有 京ICP备10011380号-2 <img src="./img/ico_gg.png"></p>
+				</div>
+			  </div>
+			  <script src="//group.picccdn.cn/libs/jquery/1.11.1/jquery.min.js"></script>
+			  <script language="javascript" src="//group.picccdn.cn/commonJs/insight/scode.js"></script>
+			  <script>
+				$(function () { 
+				  $("body").on("click", ".btn1", function () { 
+					var c = $(this).attr("name"), 
+					i = { prop11: c }; 
+					  trkObject(i) 
+					}) 
+				  }),
+				  window.trkObj = { eVar40: "PICC专题页" }, 
+				  s_picc.pageName = "PICC专题页-活动首页", 
+				  s_picc.channel = "PICC专题页", 
+				  s_picc.t()
+				  </script>
+			<script src="//group.picccdn.cn/libs/weixinshare/weixinshare.js"></script> 
+			<script>
+			  $.weixinShare({
+				title: $("title").text(),//标题
+				link: "https://www.picc.com/hd/PICC专题页/",//活动上传的地址，此处需要根据实际上线地址进行修改
+				desc: $("meta[name='description']").attr("content"),//描述的内容
+				img: "https://www.picc.com/hd/PICC专题页/img/wxpic.jpg" //分享图片的地址    此处需要根据实际上线地址进行修改
+			  });
+			</script>
+		</body>
+	</html>
